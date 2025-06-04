@@ -1,0 +1,104 @@
+<!-- File: portfolio.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Nama Anda</title>
+  <style>
+    body, h1, h2, p, ul {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom right, #2196F3, #9c27b0);
+      color: white;
+      min-height: 100vh;
+    }
+    header, .nav a, .nav a:hover, .nav a.active, footer {
+      background: inherit;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      list-style: none;
+      padding: 1em 0;
+    }
+    .nav a {
+      color: white;
+      padding: 0.5em 1.2em;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .nav a:hover {
+      background: rgba(255,255,255,0.3);
+      transform: scale(1.05);
+    }
+    .nav a.active {
+      background: white;
+      color: #333;
+      font-weight: bold;
+    }
+    main {
+      padding: 4em 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .project {
+      margin-bottom: 2em;
+      background: rgba(255,255,255,0.1);
+      padding: 1em;
+      border-radius: 10px;
+    }
+    .project h2 {
+      margin-bottom: 0.5em;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang Saya</a></li>
+        <li><a href="portfolio.html" class="active">Portofolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="gallery.html">Galeri</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Portofolio Saya</h1>
+    <div class="project">
+      <h2>LOGO PERPUSTAKAAN</h2>
+      <p>Sebuah logo yang dibuat untuk tampilan perpustakaan yang lebih indah. <a href="#" style="color: yellow;">Lihat Proyek</a></p>
+    </div>
+    <div class="project">
+      <h2>WEBSITE PRIBADI </h2>
+      <p>Membuat Website Untuk Tugas Perkuliahan, fokus pada poin poin yang dicantumkan pada Tugas. <a href="#" style="color: yellow;">Lihat Proyek</a></p>
+    </div>
+    <div class="project">
+      <h2>PELATIH BOLA VOLI </h2>
+      <p>Melatih squad bola voli dan meraih juara 2 pada turnamen tingkat Sekolah Dasar <a href="#" style="color: yellow;">Lihat Proyek</a></p>
+    </div>
+    <div class="project">
+      <h2>PELATIH FUTSAL </h2>
+      <p>Melatih Pasukan SD Fransiskus Palembang dalam rangka memperingati Hari kemerdekaan Indonesia <a href="#" style="color: yellow;">Lihat Proyek</a></p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Website Pribadi. Dibuat oleh [Hilarius Kevin Nugroho].</p>
+  </footer>
+</body>
+</html>
